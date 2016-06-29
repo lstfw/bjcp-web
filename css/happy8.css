@@ -1,0 +1,257 @@
+
+
+
+.content .content_t .type .type_b .type_b_l .nav-tabs li.active a {
+    background: #fc541b;
+    border-color: #fc541b;
+}
+.content .content_c{
+    border:none;
+}
+.content .content_t .type .type_t .date .nub{
+    color: #fc541b;
+}
+.ballarea{
+    border: 1px solid #ffd5c2;
+    padding: 10px;
+    width: 500px;
+    float: left;
+    clear: both;
+}
+.right_help_area{
+    width: 100px;
+    float: left;
+}
+.content .selectInfo span{
+    background: #f3f3f3;
+}
+.xh_tips{
+    color: #fe3c00;
+    margin-top: 0px;
+    height: 24px;
+    line-height: 24px;
+    _display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+    font-size: 12px;
+    padding-left: 65px;
+}
+.content .content_c .betbtnBox{
+    height: 40px;
+    width: 220px;
+    padding: 8px 0;
+    margin: 10px auto;
+}
+.content .content_c .betbtnBox a{
+    float: left;
+    padding: 0 10px;
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+}
+.selected_list{
+    border-color: #fc541b;
+}
+.selected_btnbox .selected_btn{
+    border-color: #fc541b;
+}
+.selected_btnbox .red{
+    color: #fc541b;
+}
+.content .content_c .betbtnBox .betbtn{
+    background: url("../img/color_btn.png")0 -37px no-repeat;
+    width: 147px;
+    height: 32px;
+}
+.more_tool {
+    clear: both;
+    float: none;
+    display: block;
+    margin: 10px 140px;
+    font-size: 13px;
+    color: #000;
+
+}
+.more_tool dt{
+    float: left;
+    display: inline-block;
+    width: 250px;
+    font-weight: normal;
+
+}
+.more_tool dt span {
+    margin-right: 15px;
+    position: relative;
+    z-index: 25;
+    display: block;
+    height: 21px;
+    line-height: 21px;
+}
+.input30 {
+    border: 1px solid #b1aeae;
+    width: 45px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.result {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+}
+.result span {
+    font-size: 18px;
+    margin: 0 3px;
+    font-family: arial;
+}
+.c_ba2534 {
+    color: #ba2534;
+}
+.betBtnBox .betBtns a{
+    background: url("../img/color_btn.png") -395px -37px;
+    width: 149px;
+    height: 37px;
+}
+.content .selectInfoT{
+    width: 700px;
+    height: 25px;
+    border: 1px solid #ffd5c2;
+    margin: 15px auto -1px;
+    padding: 0;
+}
+
+.right_help_area {
+    width: 335px;
+    height: 410px;
+    padding-left: 15px;
+    float: left;
+    color: #000;
+}
+.right_help_area h3 {
+    width: 240px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: normal;
+}
+.right_help_area .right_t_kj {
+    width: 240px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: 1px solid #fc541b;
+}
+.right_help_area .right_t_kj th {
+    border: solid #cdcdcd;
+    border-width: 1px 1px 0;
+    color: #fff;
+    background: #fc541b;
+    text-align: center;
+    padding: 3px;
+}
+.right_t_kj td {
+    padding: 0 5px;
+    line-height: 21px;
+    text-align: center;
+    border-bottom: 1px dotted #cdcdcd;
+    background: #e0e0e0;
+    padding: 6px;
+}
+.right_help_area .right_t_kj td {
+    border: 1px solid #cdcdcd;
+    font-family: Tahoma;
+}
+
+.betway_tabs {
+    clear: both;
+    padding: 3px 4px 0 8px;
+    height: 29px;
+    font-weight: 700;
+    color: #333;
+    font-size: 12px;
+    border-top: 3px solid #fc541b;
+    border-bottom: 1px solid #cbcbcb;
+    background: url(../img/K8bg.png) repeat-x 0 -150px;
+    position: relative;
+    z-index: 11;
+}
+.betway_tabs li {
+    float: left;
+    padding: 0 8px 0 9px;
+    height: 24px;
+    line-height: 22px;
+    cursor: pointer;
+    position: relative;
+}
+.betway_tabs li.active {
+    color: #fff;
+    border: 1px solid #fc541b;
+    border-bottom: 0;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    height: 22px;
+    line-height: 22px;
+    position: relative;
+    background: url(../img/K8bg.png) repeat-x center -351px;
+    border-bottom: 1px solid #fc541b;
+}
+#kl8_tags li a {
+    padding: 3px 7px 0 7px;
+}
+.betway_tabs li a{
+    color: #000;
+    font-weight: normal;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    color: #fff;
+    outline: 0;
+    background: transparent;
+    border: none;
+}
+
+
+.betway_tabs li i {
+    display: none;
+    height: 0;
+    line-height: 0;
+    border-style: solid;
+    width: 0;
+    cursor: pointer;
+    border-width: 5px 5px 0;
+    border-color: #ff681e transparent transparent transparent;
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    bottom: -5px;
+    _bottom: -6px;
+}
+.betway_tabs li.active i {
+    display: block;
+}
+.c_f15000 {
+    color: #f15000;
+}
+
+.upload{
+    border-color: #f15000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

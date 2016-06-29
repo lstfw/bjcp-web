@@ -1,0 +1,355 @@
+.content .content_c{
+    padding: 0;
+    color: #000;
+}
+
+.kl3-nav{
+    width: 900px;
+    padding: 0;
+    border: 1px solid #dedede;
+    border-top: none;
+}
+.kl3-nav li{
+    width: 112px;
+    float: left;
+    text-align: center;
+    border-left: 1px solid #dedede;
+    position: relative;
+}
+.kl3-nav li a{
+    display: block;
+    padding: 10px;
+}
+.kl3-nav li.first{
+    border: none;
+}
+.kl3-nav li.active{
+    background: #d3142d;
+}
+.kl3-nav li.active a{
+    color: #fff;
+}
+.kl3-nav li a{
+    color: #000;
+    font-size: 14px;
+}
+.kl3-nav li a span{
+    font-size: 12px;
+}
+.tipPop{
+    background-color: #f90;
+    color: #fff;
+    display: inline-block;
+    height: 18px;
+    line-height: 14px;
+    padding: 2px;
+    position: absolute;
+    vertical-align: middle;
+    z-index: 12;
+    bottom: 2px;
+    white-space: nowrap;
+    margin: 0 auto;
+    _position: absolute;
+    _margin: 0;
+    _bottom: -14px;
+    _left: 20%;
+    bottom: -10px;
+    left: 20%;
+}
+em{
+    font-style: normal;
+}
+
+.tipPop i{
+    display: block;
+    _display: inline;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    border-style: solid;
+    _border-style: solid dashed;
+    border-width: 0 5px 5px 5px;
+    border-color: #f90 transparent;
+    position: absolute;
+    left: 45%;
+    top: -5px;
+    z-index: 10;
+    zoom: 1;
+}
+
+
+.c_af3242{
+    color: #af3242;
+}
+
+.content_c .title{
+    margin-top: 15px;
+}
+.content_c .title h3 {
+    display: inline;
+    font-size: 12px;
+}
+.assistBox {
+    display: block;
+    padding: 13px 0;
+    font-size: 14px;
+    line-height: 43px;
+    width: 655px;
+    margin: 0 auto;
+}
+.assistBtn, .assistBox strong {
+    font-style: normal;
+    font-size: 18px;
+}
+.assistBtn{
+    display: inline-block;
+    width: 124px;
+    height: 43px;
+    background: url(../img/kuai3_icon_179d88b.png) 0 0 no-repeat;
+    margin-right: 13px;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+}
+.assistBtn span{
+    font-size: 14px;
+    font-weight: 400;
+}
+.assistBox .active {
+    background-position: 0 -44px;
+}
+.missed{
+    width: 90px;
+    float: left;
+}
+.OneNum{
+    width: 800px;
+    float: left;
+    padding-left: 15px;
+}
+.OneNum li{
+    float: left;
+    width: 65px;
+    margin-right: 30px;
+    cursor: pointer;
+    position: relative;
+}
+.OneNum li em{
+    display: block;
+    width: 65px;
+    height: 70px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 70px;
+    background: url("../img/k3_btn.png");
+}
+.OneNum .active em{
+    background: url("../img/k3_redbtn.png");
+    color: #fff;
+}
+.OneNum li span{
+    margin: 5px 0;
+    display: block;
+    color: #727272;
+}
+.OneNum li .bonus{
+    color: #000;
+}
+.missed div{
+    margin-top: 99px;
+    color: #727272;
+}
+.OneNum li .tipPop{
+    color: #fff;
+    top: -30px;
+}
+.OneNum li .tipPop i{
+    top: 18px;
+    border-width: 5px 5px 0px 5px;
+}
+
+/*happy2*/
+.sthtx_ball em{
+    display: inline-block;
+    width: 239px;
+    height: 67px;
+    background: url(../img/kuai3_icon_179d88b.png) 0 -356px no-repeat;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+}
+.sthtx_ball .active{
+    background-position: 0 -427px;
+    color: #fff;
+}
+.select_num {
+    margin-top: 15px;
+}
+.select_num .miss {
+    width: 300px;
+    margin: 10px auto;
+    color: #b0afaf;
+}
+.select_num .miss .nub {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+}
+
+
+/*happy3*/
+.even{
+    margin-top: 15px;
+}
+.even .miss{
+    width: 100px;
+    float: left;
+    margin-top: 53px;
+    color: #b0afaf;
+}
+.even ul{
+    float: left;
+    padding-left: 15px;
+}
+.even ul li{
+    float: left;
+    margin-left: 15px;
+}
+.even ul li .nub{
+    display: block;
+    background: url("../img/evenbtn.png");
+    width: 96px;
+    height: 51px;
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+.even ul li .nub.active{
+    background: url("../img/evenredbtn.png");
+    color: #fff;
+}
+
+.even ul li .missNub{
+    display: block;
+    margin: 5px 0;
+    color: #b0afaf;
+}
+/*happy4*/
+.game_intro{
+    margin-top: 30px;
+}
+#happy4 .missed{
+    color: #b0afaf;
+    width: 180px;
+}
+#happy4 .missed div{
+    margin-top: 90px;
+}
+.puTong{
+    margin-top: 15px;
+}
+#happy4 .OneNum{
+    margin-top: 15px;
+    width: 700px;
+}
+
+
+/*happy5*/
+
+.slhtx_ball{
+    margin-top: 15px;
+}
+.slhtx_ball em{
+    display: inline-block;
+    width: 239px;
+    height: 67px;
+    background: url(../img/kuai3_icon_179d88b.png) 0 -499px no-repeat;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+}
+.slhtx_ball .active{
+    background-position: 0 -570px;
+    color: #fff;
+}
+
+/*happy6*/
+.twoNum .miss{
+    width: 140px;
+    float: left;
+    margin-top: 70px;
+    color: #c7c7c7;
+}
+.twoNum ul{
+    margin-top: 15px;
+    width: 670px;
+    float: left;
+    padding-left: 15px;
+}
+.twoNum ul li{
+    float: left;
+    width: 94px;
+    background: url("../img/kuai3_icon_179d88b.png") -56px -126px no-repeat;
+    margin-right: 15px;
+}
+.twoNum ul .active{
+    background-position: -56px -183px;
+    color: #fff;
+
+}
+.twoNum ul li em{
+    font-size: 36px;
+    line-height: 55px;
+    width: 45px;
+    display: inline-block;
+}
+.twoNum ul li span{
+    display: block;
+    background: #f3f3f3;
+    color: #c7c7c7;
+}
+.noTwoNum  ul li{
+    background: url("../img/kuai3_icon_179d88b.png") -142px -242px no-repeat;
+}
+.noTwoNum  ul .active{
+    background-position: -56px -183px;
+    color: #fff;
+}
+/*happy8*/
+#happy8 .OneNum{
+    margin-top: 15px;
+    width: 700px;
+}
+#happy8 .missed{
+    color: #b0afaf;
+    width: 180px;
+}
+#happy8 .missed div{
+    margin-top: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

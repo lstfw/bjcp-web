@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>北京福利彩票电话投注系统</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/happy8.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <style>
+        .awardList {
+            width: 100%;
+            border-style: solid;
+            border-width: 2px 1px 0 1px;
+            border-color: #ba2636 #ddd #ddd #ddd;
+            margin-bottom: -1px;
+        }
+
+        .awardList th {
+            line-height: 30px;
+            border-bottom: 1px solid #ebedec;
+            background: #f3f2f2;
+            color: #717171;
+            text-align: center;
+        }
+
+        .awardList td {
+            padding: 10px 0 9px 0;
+            line-height: 22px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .smallRedball, .smallBlueball {
+            font-style: normal;
+            display: inline-block;
+            width: 20px;
+            padding-right: 1px;
+            height: 22px;
+            line-height: 21px;
+            font-weight: 700;
+            text-align: center;
+            color: #fff;
+            line-height: 21px \9;
+            margin-right: 5px;
+            color: #fff;
+            background: url(img/qiu.png) no-repeat -47px -38px;
+            font-size: 14px;
+        }
+
+        .smallBlueball {
+            background-position: -70px -38px;
+        }
+
+        .awardList .numberDis {
+            margin-right: 5px;
+        }
+
+        .awardList .numberDis strong {
+            font-size: 14px;
+            margin-right: 5px;
+            display: inline-block;
+            width: 16px;
+        }
+
+        .awardList .numberDis em {
+            font-size: 14px;
+            font-weight: 600;
+            font-style: normal;
+            display: inline-block;
+            height: 16px;
+            line-height: 15px;
+            width: 18px;
+            margin-right: 5px;
+            padding-left: 1px;
+            color: #fff;
+            background: url(img/big.png) no-repeat 0 0;
+        }
+
+        .awardList .numberDis em.big {
+            background-position: 0 0;
+        }
+
+        .awardList .numberDis em.odd {
+            background-position: -38px 0;
+        }
+
+        .notice_show .panel-heading .betBtn {
+            display: inline-block;
+            width: 66px;
+            font-size: 10px;
+            height: 22px;
+            line-height: 22px;
+            text-align: center;
+            color: #fff;
+            background: url(img/big.png) no-repeat 0 -100px;
+        }
+
+        .menu_left {
+            position: absolute;
+            background: #fff;
+            top: 53px;
+            left: 0px;
+            z-index: 1000;
+        }
+
+        .awardList{
+            background: #ddd;
+        }
+        .awardList div,.notice_show .panel-title div{
+            padding: 10px;
+            font-size: 18px;
+            vertical-align: middle;
+            height: 100%;
+        }
+        .notice_show .panel-heading{
+            padding: 0;
+        }
+        .notice_show .panel-group .panel{
+            border-radius: 0;
+        }
+       .notice_show .panel-default>.panel-heading{
+           background: #fff;
+       }
+        .notice_show .panel-heading .happy8{
+            line-height: 44px;
+        }
+        .panel-body .award,.panel-body .nub,.panel-body .amount{
+            padding: 10px;
+        }
+        .panel-group .panel+.panel{
+            margin-top: -1px;
+        }
+        .w150{
+            width: 149px;
+        }
+        .w320{
+            width: 320px;
+        }
+        .w250{
+            width: 250px;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+
+        <!--头部菜单   1-->
+        <div class="head">
+            <div class="head_top">
+                欢迎来到北京福利彩票电话投注系统！<span class="login" data-toggle="modal" data-target="#myModal">请登录</span>|<a class="registered" href="register.html">免费注册</a>
+            </div>
+            <div class="head_ft">
+                <h1>北京福利彩票电话投注系统</h1>
+                <nav class="navbar menu">
+                    <div class="navbar-header">
+                        <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>-->
+                        <a class="navbar-brand col-sm-12 text-center" href="#">彩种选择 <span class="caret"></span></a>
+                        <!--左侧彩种导航-->
+                        <div class="menu_left" style="display: none">
+                            <div class="row">
+                                <div class="menu_top">
+                                    <!--<div class="list-group">
+                                        <div class="list-group-item">
+                                            <div class="col-sm-4"><img src="img/img_menu_1.gif"></div>
+                                            <div class="col-sm-8"><div>双色球</div><div>第201233212期</div></div>
+                                        </div>
+                                        <div class="list-group-item">Dapibus ac facilisis in</div>
+                                        <div class="list-group-item">Morbi leo risus</div>
+                                        <div class="list-group-item">Porta ac consectetur ac</div>
+                                        <div class="list-group-item">Vestibulum at eros</div>
+                                    </div>-->
+                                    <ul class="nav nav-pills nav-stacked">
+                                        <!--<li class="col-sm-12">
+                                            <div class="col-sm-4"><img class="img-responsive" src="img/img_menu_1.gif"></div>
+                                            <div class="col-sm-8"><div>双色球</div><div>第201233212期</div></div>
+                                        </li>-->
+
+                                        <li>
+                                            <a href="index.html">
+                                                <div class="img"><img src="img/img_menu_03.png"></div>
+                                                <div class="title">
+                                                    <div class="title_t">双色球</div>
+                                                    <div class="title_b">第201233212期</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="fucai3D.html">
+                                                <div class="img"><img src="img/img_menu_18.png"></div>
+                                                <div class="title">
+                                                    <div class="title_t">福彩3D</div>
+                                                    <div class="title_b">第201233212期</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="qlc.html">
+                                                <div class="img"><img src="img/img_menu_06.png"></div>
+                                                <div class="title">
+                                                    <div class="title_t">七乐彩</div>
+                                                    <div class="title_b">第201233212期</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="happy8.html">
+                                                <div class="img"><img src="img/img_menu_08.png"></div>
+                                                <div class="title">
+                                                    <div class="title_t">快乐8</div>
+                                                    <div class="title_b">第201233212期</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="quick3.html">
+                                                <div class="img"><img src="img/img_menu_10.png"></div>
+                                                <div class="title">
+                                                    <div class="title_t">快3</div>
+                                                    <div class="title_b">第201233212期</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="PK10.html">
+                                                <div class="img"><img src="img/img_menu_12.png"></div>
+                                                <div class="title">
+                                                    <div class="title_t">PK拾</div>
+                                                    <div class="title_b">第201233212期</div>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--左侧彩种导航-->
+
+                    </div>
+                    <div id="navbar" class="col-sm-9">
+                        <ul class="nav navbar-nav col-sm-12">
+                            <li class="col-sm-2"><a href="index.html">首页</a></li>
+                            <li class="col-sm-3 "><a href="notice.html">开奖公告</a></li>
+                            <li class="col-sm-7 text-right"><a href="user.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>个人中心</a></li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--头部菜单   1-->
+
+
+        <!--公告展示-->
+
+        <div class="notice_show text-center">
+
+            <div class="clearfix awardList">
+                <div class="col-sm-1 w150">彩种</div>
+                <div class="col-sm-1 w150">期次</div>
+                <div class="col-sm-3 w250">开奖时间</div>
+                <div class="col-sm-3 w320">中奖号码</div>
+                <div class="col-sm-2 w150">开奖日</div>
+                <div class="col-sm-2 w150">查看往期</div>
+            </div>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <div class="col-sm-2 happy8 w150 pull-right" style="margin: 10px 0"><a class="betBtn" href="notice-details.html">查看往期</a></div>
+                        <h4 class="panel-title">
+                            <a class="clearfix" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapseOne">
+                                <div class="col-sm-1 happy8 w150" >双色球</div>
+                                <div class="col-sm-1 happy8 w150">2015140</div>
+                                <div class="col-sm-3 happy8 w250">2015-3-4 19：20：00</div>
+                                <div class="col-sm-3 w320" >
+                                    <em class="smallRedball">06</em>
+                                    <em class="smallRedball">20</em>
+                                    <em class="smallRedball">28</em>
+                                    <em class="smallRedball">29</em>
+                                    <em class="smallRedball">06</em>
+                                    <em class="smallRedball">06</em>
+                                    <em class="smallRedball">20</em>
+                                    <em class="smallRedball">28</em>
+                                    <em class="smallRedball">29</em>
+                                    <em class="smallRedball">06</em>
+                                    <em class="smallRedball">06</em>
+                                    <em class="smallRedball">20</em>
+                                    <em class="smallRedball">28</em>
+                                    <em class="smallRedball">29</em>
+                                    <em class="smallRedball">20</em>
+                                    <em class="smallRedball">28</em>
+                                    <em class="smallRedball">29</em>
+                                    <em class="smallRedball">30</em>
+                                    <em class="smallRedball">31</em>
+                                    <em class="smallBlueball">12</em>
+                                </div>
+                                <div class="col-sm-2 happy8 w150">二、四、日</div>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+                        <div class="panel-body">
+                            <div class="award clearfix">
+                                <div class="col-sm-2">一等奖</div>
+                                <div class="col-sm-2">二等奖</div>
+                                <div class="col-sm-2">三等奖</div>
+                                <div class="col-sm-2">四等奖</div>
+                                <div class="col-sm-2">五等奖</div>
+                                <div class="col-sm-2">六等奖</div>
+                            </div>
+                            <div class="nub clearfix">
+                                <div class="col-sm-2">12452365</div>
+                                <div class="col-sm-2">12452365</div>
+                                <div class="col-sm-2">12452365</div>
+                                <div class="col-sm-2">12452365</div>
+                                <div class="col-sm-2">12452365</div>
+                                <div class="col-sm-2">12452365</div>
+                            </div>
+                            <div class="amount clearfix">
+                                <div class="col-sm-2">12452365</div>
+                                <div class="col-sm-2">12452365</div>
+                                <div class="col-sm-2">12452365</div>
+                                <div class="col-sm-2">12452365</div>
+                                <div class="col-sm-2">12452365</div>
+                                <div class="col-sm-2">12452365</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+        <!--公告展示-->
+
+
+    </div>
+</div>
+
+
+<!--登录弹窗-->
+
+<div class="modal fade login_modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-big">
+        <div class="modal-content clearfloat">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">用户登录</h4>
+            </div>
+            <div class="col-sm-10">
+                <form class="form-horizontal" style="padding: 15px">
+                    <div class="input-group">
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-user"
+                                                              aria-hidden="true"></span></span>
+                        <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-lock"
+                                                              aria-hidden="true"></span></span>
+                        <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> 自动登录
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-block" style="background: #d3374b">登录</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-sm-2 " style="padding: 20px 0">
+                <p><a>免费注册</a></p>
+
+                <p style="margin-top: 30px"><a>找回密码</a></p>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--登陆弹窗-->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script>
+    $(function () {
+        var $menu_left = $('.menu_left');
+        var date1 = 0,
+                date2 = 0
+        $('.navbar-header').hover(function () {
+            date1 = new Date().getTime()
+            console.log(date1,date1 - date2)
+            if(date1 - date2 > 400){
+                $menu_left.slideDown()
+            }
+        }, function () {
+            date2 = new Date().getTime()
+            $menu_left.slideUp()
+        })
+
+    })
+</script>
+</body>
+</html>

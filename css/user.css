@@ -1,0 +1,518 @@
+.menu_left {
+    position: absolute;
+    background: #fff;
+    top: 50px;
+    left: 0px;
+    z-index: 11111;
+}
+.head_top span{
+    color: #072175;
+}
+.head_top .logout,.balance .nub{
+    color: #ff6c00;
+}
+.balance{
+    margin-left: 30px;
+}
+
+.userMenu{
+    width: 240px;
+    border: 1px solid #c4c4c4;
+}
+.userMenu .title{
+    background: #f3f3f3;
+    padding: 10px;
+    border-bottom: 1px solid #c4c4c4;
+}
+.userMenu .tab{
+    padding: 10px;
+}
+.userMenu .category{
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    padding: 10px 15px;
+}
+
+.userMenu .tab .active{
+    margin: 0;
+    background: #f0f0f0;
+}
+.userMenu li a{
+    display: block;
+    padding: 10px;
+}
+.userMenu .line{
+    height: 1px;
+    padding: 0;
+    margin: 15px 0;
+    background: #c4c4c4;
+}
+.userMenu .tab .active a{
+    padding: 10px;
+}
+.userMain .head{
+    border: 1px solid #ffe0b4;
+    background: #fffde6;
+    padding: 10px 15px;
+}
+.userMain .head .homePage{
+    margin: 0 10px;
+}
+.userMain .head .logout{
+    margin: 0 0 0 10px;
+}
+.userMain .head .userName{
+    color: #1a3696;
+    margin: 0 10px;
+}
+.userMain .head .nub{
+    color: #f71c3c;
+    font-weight: bold;
+}
+.userMain .head .btn{
+    background: #feb52d;
+    color: #fff;
+    border: 1px solid #e15d14;
+    padding: 2px 10px;
+    margin: 0 5px;
+}
+.userMain .head .cash{
+    background: #eaf7ff;
+    border-color: #409dc3;
+    color: #042da2;
+}
+
+
+
+
+
+.userMain .head_right{
+    padding: 3px 0;
+}
+
+
+
+
+
+
+
+
+.userMain{
+    width: 900px;
+}
+.userMenu,.userMain{
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+}
+
+.userMain .record-title{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #aa152b;
+    padding: 5px 0;
+}
+.userMain .record-title h2{
+    margin: 0 ;
+    font-size: 18px;
+    font-weight: bold;
+    color: #aa152b;
+}
+.userMain .record-title p{
+    margin: 0;
+    font-size: 12px;
+    color: #9a9999;
+}
+.userMain .record-box{
+    padding: 15px 15px 0;
+    border: 1px solid #c4c4c4;
+}
+.userMain .explain{
+    padding: 10px 25px;
+    border: 1px solid #c4c4c4;
+    margin-top: -1px;
+}
+.userMain .record-head .form-control{
+    width: 100px;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    padding: 0;
+
+}
+
+
+.userMain .record-head .query{
+    font-size: 13px;
+    background: #e0f3ff;
+    border: 1px solid #409dc3;
+    padding: 2px 5px;
+    margin-left: 10px;
+    color: #042da2;
+}
+.userMain .record-box .record-foot{
+    margin-top: 15px;
+
+}
+
+
+
+
+.awardList {
+    width: 100%;
+    margin-bottom: -1px;
+    margin-top: 20px;
+}
+
+.awardList th {
+    line-height: 30px;
+    border-bottom: 1px solid #ebedec;
+    background: #f3f2f2;
+    color: #717171;
+    text-align: center;
+}
+
+.awardList td {
+    padding: 10px 0 9px 0;
+    line-height: 22px;
+    border-bottom: 1px solid #ddd;
+}
+
+.smallRedball, .smallBlueball {
+    display: inline-block;
+    width: 20px;
+    padding-right: 1px;
+    height: 22px;
+    line-height: 21px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    line-height: 21px \9;
+    margin-right: 5px;
+    color: #fff;
+    background: url(../img/qiu.png) no-repeat -47px -38px;
+    font-size: 14px;
+}
+
+.smallBlueball {
+    background-position: -70px -38px;
+}
+
+.awardList .numberDis {
+    margin-right: 5px;
+}
+
+.awardList .numberDis strong {
+    font-size: 14px;
+    margin-right: 5px;
+    display: inline-block;
+    width: 16px;
+}
+
+.awardList .numberDis em {
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    display: inline-block;
+    height: 16px;
+    line-height: 15px;
+    width: 18px;
+    margin-right: 5px;
+    padding-left: 1px;
+    color: #fff;
+    background: url(../img/big.png) no-repeat 0 0;
+}
+
+.awardList .numberDis em.big {
+    background-position: 0 0;
+}
+
+.awardList .numberDis em.odd {
+    background-position: -38px 0;
+}
+
+.awardList .betBtn {
+    display: inline-block;
+    width: 66px;
+    font-size: 10px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/big.png) no-repeat 0 -100px;
+}
+
+
+/*充值*/
+.userMain .recharge-box{
+    border: 1px solid #c4c4c4;
+}
+.c_ff0026{
+    color: #ff0026;
+}
+.userMain .recharge-box .recharge-head{
+    background: #f0f0f0;
+    padding: 10px 15px;
+    border-bottom: 1px solid #c4c4c4;
+    margin-bottom: 15px;
+}
+.c_ffb92d{
+    color: #ffb92d;
+}
+.userMain .recharge-box .recharge-foot{
+    width: 490px;
+    margin: 0 auto;
+}
+.userMain .recharge-box .recharge-foot .radio label{
+    padding-right: 0;
+    width: 160px;
+
+}
+.userMain .recharge-box .recharge-foot .radio label input{
+    margin-top: 10px;
+}
+.userMain .recharge-box .recharge-foot .radio .first{
+    margin-right: 40px;
+}
+.userMain .recharge-box .recharge-foot .next{
+    background: #fe9c0f;
+    border: 1px solid #ff5a00;
+    color: #fff;
+}
+
+.userMain .recharge-box .buZhou{
+    width: 605px;
+    height: 36px;
+    margin: 0 auto 30px;
+    position: relative;
+}
+.userMain .recharge-box .buZhou span{
+    position: absolute;
+    width: 215px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    background: url("../img/buzhou-bg1.png") no-repeat;
+    z-index: 50;
+}
+.userMain .recharge-box .buZhou .active{
+    background: url("../img/buzhou-bg.png") no-repeat;
+    z-index: 100;
+}
+.userMain .recharge-box .buZhou .ordinary1{
+    left: 190px;
+    z-index: 40;
+}
+.userMain .recharge-box .buZhou .ordinary1.active{
+    z-index: 45;
+}
+.userMain .recharge-box .buZhou .ordinary2{
+    left: 380px;
+    z-index: 30;
+}
+.userMain .recharge-box .buZhou .ordinary2.active{
+    z-index: 35;
+}
+
+
+
+
+#detail ul{
+    margin-top: 20px;
+}
+#detail .tab-content{
+    padding: 20px 20px 0;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.userMain .note{
+    padding: 15px 30px 5px;
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    font-size: 12px;
+}
+
+.progress{
+    width: 40%;
+    margin-right: 350px;
+    float: right;
+    border: 1px solid #bdbcbc;
+}
+.progress .progress-bar{
+    background: #29b61a;
+}
+
+
+.userMain #data .recharge-box .recharge-foot .radio label{
+    width: 110px;
+    margin: 0;
+    padding-top: 0;
+}
+.userMain #data .recharge-box .recharge-foot .radio label input{
+    margin-top: 5px;
+}
+.userMain #data .recharge-box .recharge-foot .form-control{
+    display: inline-block;
+    width: 178px;
+    padding: 5px;
+}
+.userMain #data .recharge-box .recharge-foot a{
+    float: right;
+}
+.userMain #data .recharge-box .recharge-foot .btn{
+    background: #eaf7ff;
+    border: 1px solid #409dc3;
+    color: #042da2;
+}
+.c_d1172f{
+    color: #d1172f;
+}
+
+.userMain #safe .safe-foot{
+    padding: 0 15px;
+}
+.userMain #safe .safe-foot p{
+    padding: 0 15px;
+    color: #f76b0b;
+    font-size: 12px;
+}
+.userMain #safe .safe-foot .table{
+    margin: 0;
+}
+.userMain #safe .safe-foot .table td,.userMain #safe .safe-foot .table th{
+    padding: 20px;
+}
+.userMain #safe .safe-foot .table .btn{
+    padding: 1px 10px;
+    background: #e7f6ff;
+    font-size: 12px;
+    border: 1px solid #409dc3;
+
+}
+
+.c_ff7401{
+    color: #ff7401;
+}
+.c_33cb1e{
+    color: #33cb1e;
+}
+
+.userMain #cipher p{
+    padding: 0 30px;
+    color: #f86b0a;
+    font-size: 12px;
+}
+.userMain #cipher .cipher-foot{
+    width: 440px;
+    margin: 0 auto;
+}
+.userMain #cipher .cipher-foot .btn{
+    background: #e7f6ff;
+    font-size: 12px;
+    border: 1px solid #409dc3;
+    color: #042da2;
+}
+.userMain #cipher .recharge-head .tip{
+    float: right;
+    margin-right: 125px;
+    color: #aa152b;
+    font-size: 12px;
+}
+.userMain #cipher .recharge-head .cipher-progress{
+    width: 347px;
+    margin-right: 15px;
+}
+.userMain #bankCard .recharge-head .btn{
+    background: #feb12c;
+    color: #fff;
+    border: 1px solid #e15d14;
+    padding: 3px 12px;
+}
+.userMain #bankCard .bankCard-foot{
+    padding: 0 15px;
+}
+
+
+.userMain #userCenter .userCenter-head{
+    background: #fffde6;
+    border: 1px solid #ffe0b4;
+    padding: 15px 0;
+}
+.userMain #userCenter .userCenter-head .userCenter-left{
+    border-right: 1px solid #ffe0b4;
+    font-size: 12px;
+    color: #8f8d8d;
+}
+.userMain #userCenter .userCenter-head .userCenter-left .media-heading{
+    margin-top: 8px;
+}
+.userMain #userCenter .userCenter-head .userCenter-left .media-body{
+    padding-left: 15px;
+}
+.userMain #userCenter .userCenter-head .userCenter-left div{
+    padding: 2px 0;
+}
+.userMain #userCenter .userCenter-head .userCenter-left .certified{
+    padding: 19px 0 5px;
+}
+.userMain #userCenter .userCenter-head .userCenter-left .certified a{
+    margin: 0 15px 0 5px;
+}
+.c_b90128{
+    color: #b90128;
+}
+.bg{
+    display: inline-block;
+    width: 20px;
+    height: 9px;
+    background: #b8b8b8;
+    margin-right: 3px;
+}
+.c_1a3696{
+    color: #1a3696;
+}
+.c_f71c3c{
+    color: #f71c3c;
+}
+
+.userMain #userCenter .userCenter-head .userCenter-right-t{
+    font-size: 16px;
+    color: #000;
+    margin-top: 20px;
+}
+.userMain #userCenter .userCenter-head .userCenter-right-c{
+    font-size: 16px;
+    margin: 15px 0;
+}
+.userMain #userCenter .userCenter-head .userCenter-right .btn{
+    margin-left: 15px;
+
+}
+.userMain #userCenter .userCenter-foot{
+    margin-top: 15px;
+}
+.userMain #userCenter .userCenter-foot .tab-content{
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 15px 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

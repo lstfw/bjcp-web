@@ -1,0 +1,235 @@
+.select_num {
+    font-size: 12px;
+    padding-left: 20px;
+    color: #000;
+}
+.way_tags {
+    margin: 0;
+    padding: 10px 20px 8px 5px;
+    font-size: 12px;
+}
+.gameIntro {
+    line-height: 24px;
+    padding-bottom: 5px;
+    clear: both;
+    float: none;
+    padding-left: 6px;
+}
+.select_left_text {
+    float: left;
+    font-size: 12px;
+    text-align: right;
+    padding-top: 5px;
+}
+.digit_box .select_left_text {
+    padding: 26px 5px 0 0;
+    width: 60px;
+    line-height: 18px;
+    padding: 0 5px 0 0;
+    margin: -2px 0 0;
+}
+.hover_title, .hover_title:link, .hover_title:visited, .hover_title:hover, .hover_title:active {
+    position: relative;
+    z-index: 100;
+    color: #9d9d9d;
+}
+.hover_title span {
+    display: none;
+}
+.digit_box .select_left_text b{
+    line-height: 41px;
+}
+
+
+
+.f_left {
+    float: left;
+}
+.ksxh_div {
+    float: left;
+}
+.select_info_text {
+    padding: 10px 0;
+    clear: both;
+    text-align: center;
+    font-family: '宋体';
+    position: relative;
+    height: 21px;
+}
+.fs_red_area, .fs_blue_area {
+    float: left;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    width: 500px;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+.fs_red_area li, .fs_blue_area li {
+    float: left;
+    width: 31px;
+    margin: 0 18px 20px 0;
+    padding-left: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: #9d9d9d;
+    font-weight: 400;
+    line-height: 12px;
+    height: 50px;
+}
+.fs_red_area li span, .fs_blue_area li span {
+    font-size: 16px;
+    width: 33px;
+    height: 33px;
+    margin-bottom: 10px;
+    line-height: 33px;
+    display: block;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    background: url(../img/qiu.png) 0 0 no-repeat;
+}
+.fs_red_area li .active, .fs_blue_area li .active{
+    background-position: -70px 0;
+    color: #fff;
+}
+
+.fs_zx_btns {
+    background: url(../img/pk10bg_03.png) repeat-y;
+    padding: 0 0 0 20px;
+    margin-top: 3px;
+    margin-left: 25px;
+    color: #1B54A3;
+    font-size: 12px;
+    overflow: hidden;
+    text-align: center;
+    width: 205px;
+}
+.digit_box .fs_zx_btns li {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    float: left;
+    background-position: -326px -1px;
+    margin: 7px 5px 33px 0;
+    cursor: pointer;
+    border: 1px solid #4e7ad1;
+    color: #153b8f;
+}
+.digit_box .fs_zx_btns li.clear_btn {
+    background: 0 0;
+    width: 35px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    border: none;
+    margin-right: 0;
+}
+.digit_box .fs_zx_btns li.active{
+    background: #ff8b64;
+    color: #fff;
+    border: 1px solid #e6582c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#kl8_tags li a {
+    padding: 3px 4px 0;
+}
+.size_box{
+    width: 252px;
+    margin: 0 auto;
+}
+.size_box .btn{
+    width: 94px;
+    height: 56px;
+    background: url("../img/sizeBtn.png") -7px -2px no-repeat;
+    margin: 15px;
+    font-size: 24px;
+    text-align: center;
+    padding: 0;
+}
+.size_box .btn span{
+    display: block;
+    font-size: 14px;
+    color: #939292;
+}
+.size_box .active{
+    background-position: -7px -77px;
+    color: #fff;
+}
+.size_box .active span{
+    color: #fff;
+}
+.bd .type2 {
+    width: 260px;
+    margin: 0 auto;
+}
+.bd .type2 .balls {
+    border: 1px solid #e1e0e0;
+    border-radius: 5px;
+    height: 110px;
+    padding-top: 20px;
+    text-align: center;
+}
+.bd .type2 .balls ul,.bd .type2 .ball-list{
+    padding: 0;
+    margin: 0;
+}
+.bd .type2 .ball-list {
+    width: 105px;
+    height: 75px;
+    position: relative;
+    left: 50%;
+    margin-left: -45px;
+    top: -30px;
+}
+.bd .type2 .ball-list li{
+    width: 94px;
+    height: 56px;
+    background: url("../img/sizeBtn.png") -7px -2px no-repeat;
+    text-align: center;
+}
+.bd .type2 .balls li{
+    display: inline-block;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 3px;
+    line-height: 30px;
+}
+.bd .type2 .ball-list li .ball {
+    background: transparent;
+    color: #000;
+    font-size: 24px;
+    width: 105px;
+    height: 75px;
+    line-height: 56px;
+    position: relative;
+    z-index: 10;
+}
+.bd .type2 .ball-list .active{
+    width: 95px;
+    background-position: -5px -76px;
+    color: #fff;
+}
+
+.bd .tractor_box{
+    width: 410px;
+}
